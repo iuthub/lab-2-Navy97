@@ -1,0 +1,65 @@
+body
+{
+ background-image: url(images/background.jpg);
+}	
+* *:hover {
+	background-color: yellow;
+}
+
+div.green{
+	border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    background-color: white;
+  	overflow: auto;
+  	  box-sizing: border-box;
+  	  width: 100%;
+}
+div.red{
+	border-style: solid;
+    border-width: 5px;
+    border-color: #A8F0F0;
+    background-color:#A8F0F0; 
+    text-align: right;
+    margin-bottom: 10px;
+}
+div.friends{
+	border-style: solid;
+	border-collapse: separate;
+	position: relative;
+    border-width: 4px;
+    border-color: #6FD3D3;
+    background-color: #B8ECEC;
+    float: left;
+   box-sizing: border-box;
+ 	padding-right: 10px;
+ 	 margin: .5em auto;
+ }
+ div.content{
+	float: right;
+	width: 85%;
+}
+
+div.blue{
+	border-style: solid;
+    border-width: 4px;
+    border-color: #6FD3D3;
+    border-collapse: separate;
+    background-color: #B8ECEC;
+    float: right;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+ }
+div.certify{
+	align-content: center;
+	margin: 15px;
+}
+
+.spacer {
+	clear: both;
+}
+.image{
+	float: right;
+}
+
